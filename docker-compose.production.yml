@@ -33,5 +33,6 @@ services:
       - media_volume:/media
     depends_on:
       - backend
+      - frontend
     ports:
       - 9000:80
